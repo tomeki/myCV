@@ -47,7 +47,7 @@ $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
  
 //=====Envoi de l'e-mail.
 echo "sended";
-$variable = mail($mail,$sujet,$message,$header);
+$variable = mail("thomas.brissonnet@master-stic.fr","mySubject","monMessage");
 echo $variable;
 //==========
 ?>
