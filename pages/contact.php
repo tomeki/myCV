@@ -1,5 +1,4 @@
 <?php
-
 $mail = 'thomas.brissonnet@master-stic.fr'; // Déclaration de l'adresse de destination.
 if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail)) // On filtre les serveurs qui rencontrent des bogues.
 {
@@ -23,8 +22,8 @@ $sujet = "Hey mon ami !";
 //=========
  
 //=====Création du header de l'e-mail.
-$header = "From: \"thomas\"<tom.brissonnet@gmail.com>".$passage_ligne;
-$header.= "Reply-to: \"thomas\" <tom.brissonnet@gmail.com>".$passage_ligne;
+$header = "From: \"Thomas\"<tom.brissonnet@gmail.com>".$passage_ligne;
+$header.= "Reply-to: \"WeaponsB\"<tom.brissonnet@gmail.com>".$passage_ligne;
 $header.= "MIME-Version: 1.0".$passage_ligne;
 $header.= "Content-Type: multipart/alternative;".$passage_ligne." boundary=\"$boundary\"".$passage_ligne;
 //==========
