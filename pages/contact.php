@@ -46,7 +46,6 @@ $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
 //==========
  
 //=====Envoi de l'e-mail.
-echo "sended";
 
 // the message
 $msg = "First line of text\nSecond line of text";
@@ -56,7 +55,7 @@ $msg = wordwrap($msg,70);
 
 // send email
 mail("thomas.brissonnet@master-stic.fr","My subject",$msg);
-
+echo "mail sended";
 //==========
 ?>
 
