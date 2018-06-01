@@ -7,7 +7,8 @@ $message = "Line 1\r\nLine 2\r\nLine 3";
 $message = wordwrap($message, 70, "\r\n");
 
 // Envoi du mail
-mail('thomas.brissonnet@master-stic.fr', 'Mon Sujet', $message);echo "mail sended";
+mail('thomas.brissonnet@master-stic.fr', 'Mon Sujet', $message);
+echo "mail sended";
 //==========
 ?>
 
