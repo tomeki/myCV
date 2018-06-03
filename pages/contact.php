@@ -161,7 +161,8 @@ $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
 
 
 /*Sending mail*/
-mail($mail,$_POST["sujet"],$message,$header);
+$test = mail($mail,$_POST["sujet"],$message,$header);
+echo $test;
 
 /*Display mail information*/
 echo 'Your mail address : '. $_POST["email"]."<br/>";
