@@ -53,64 +53,54 @@
 	
 	
 <!-- Sending message-->
-<div class="wrapper row3">
-  <main class="hoc container clear">
-    <div class="content">
-		<div id="comments">
-			<div id='message'>
-				<?php 
-				if (isset($_POST['envoyer'])){	
-				echo 'Your mail address : '. $_POST["email"]."<br/>";
-				echo 'Subject : ' . $_POST["sujet"]."<br/>";
-				echo 'Content : ' . $_POST["message"];?>
-			<h2 id="titre">A message has been sent : </h2>
-		        <?php 
-					
-				$mail = 'thomas.brissonnet@master-stic.fr';
-		        $boundary = "-----=".md5(rand());
-		        /*Space in mail*/
-		        if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail)) {
-					$passage_ligne = "\r\n";
-				}
-				else {
-					$passage_ligne = "\n";
-				}				
-				/*Open Boundary*/
-				$message = "...";
 
-				/*Header Mail*/
-				$header = "From: \"EXPEDITEUR\"<".$_POST["email"].">".$passage_ligne;
-				$header.= "Reply-to: \"RETOUR\" <".$mail.">".$passage_ligne;
-				$header.= "MIME-Version: 1.0".$passage_ligne;
-				$header.= "Content-Type: multipart/alternative;".$passage_ligne." boundary=\"$boundary\"".$passage_ligne;
+<?php 
+if (isset($_POST['envoyer'])){	
+echo 'Your mail address : '. $_POST["email"]."<br/>";
+echo 'Subject : ' . $_POST["sujet"]."<br/>";
+echo 'Content : ' . $_POST["message"];?>
+<h2 id="titre">A message has been sent : </h2>
+<?php 
 
-				$message = $passage_ligne."--".$boundary.$passage_ligne;
+$mail = 'thomas.brissonnet@master-stic.fr';
+$boundary = "-----=".md5(rand());
+/*Space in mail*/
+if (!preg_match("#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#", $mail)) {
+	$passage_ligne = "\r\n";
+}
+else {
+	$passage_ligne = "\n";
+}				
+/*Open Boundary*/
+$message = "...";
 
-				/*Mail in Text*/
-				$message.= "Content-Type: text/plain; charset=\"ISO-8859-1\"".$passage_ligne;
-				$message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;
-				$message.= $passage_ligne.$_POST["message"].$passage_ligne;
-				$message.= $passage_ligne."--".$boundary.$passage_ligne;
+/*Header Mail*/
+$header = "From: \"EXPEDITEUR\"<".$_POST["email"].">".$passage_ligne;
+$header.= "Reply-to: \"RETOUR\" <".$mail.">".$passage_ligne;
+$header.= "MIME-Version: 1.0".$passage_ligne;
+$header.= "Content-Type: multipart/alternative;".$passage_ligne." boundary=\"$boundary\"".$passage_ligne;
 
-				$message.= $passage_ligne."--".$boundary."--".$passage_ligne;
-				$message.= $passage_ligne."--".$boundary."--".$passage_ligne;
+$message = $passage_ligne."--".$boundary.$passage_ligne;
 
-				 
-				/*Sending mail*/
-				mail($mail,$_POST["sujet"],$message,$header);
-				
-				/*Display mail information*/
-				echo 'Your mail address : '. $_POST["email"]."<br/>";
-				echo 'Subject : ' . $_POST["sujet"]."<br/>";
-				echo 'Content : ' . $_POST["message"];
-				}
-		        ?>
-		    </div>
-	    </div>
-    </div>
-    <div class="clear"></div>
-  </main>
-</div>
+/*Mail in Text*/
+$message.= "Content-Type: text/plain; charset=\"ISO-8859-1\"".$passage_ligne;
+$message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;
+$message.= $passage_ligne.$_POST["message"].$passage_ligne;
+$message.= $passage_ligne."--".$boundary.$passage_ligne;
+
+$message.= $passage_ligne."--".$boundary."--".$passage_ligne;
+$message.= $passage_ligne."--".$boundary."--".$passage_ligne;
+
+
+/*Sending mail*/
+mail($mail,$_POST["sujet"],$message,$header);
+
+/*Display mail information*/
+echo 'Your mail address : '. $_POST["email"]."<br/>";
+echo 'Subject : ' . $_POST["sujet"]."<br/>";
+echo 'Content : ' . $_POST["message"];
+}
+?>
 
 	<!-- Content-->
 	<div class="container">
