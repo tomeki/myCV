@@ -86,7 +86,7 @@
 				/*Mail in Text*/
 				$message.= "Content-Type: text/plain; charset=\"ISO-8859-1\"".$passage_ligne;
 				$message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;
-				$message.= $passage_ligne.$_POST["gdtext"].$passage_ligne;
+				$message.= $passage_ligne.$_POST["message"].$passage_ligne;
 				$message.= $passage_ligne."--".$boundary.$passage_ligne;
 
 				$message.= $passage_ligne."--".$boundary."--".$passage_ligne;
@@ -94,7 +94,7 @@
 
 				 
 				/*Sending mail*/
-				mail($mail,$_POST["subject"],$message,$header);
+				mail($mail,$_POST["sujet"],$message,$header);
 				
 				/*Display mail information*/
 				echo 'Your mail address : '. $_POST["email"]."<br/>";
