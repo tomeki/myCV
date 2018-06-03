@@ -58,9 +58,14 @@
     <div class="content">
 		<div id="comments">
 			<div id='message'>
+				<?php 
+				if (isset($_POST['envoyer'])){	
+				echo 'Your mail address : '. $_POST["email"]."<br/>";
+				echo 'Subject : ' . $_POST["sujet"]."<br/>";
+				echo 'Content : ' . $_POST["message"];?>
 			<h2 id="titre">A message has been sent : </h2>
 		        <?php 
-				if (isset($_POST['envoyer'])){	
+					
 				$mail = 'thomas.brissonnet@master-stic.fr';
 		        $boundary = "-----=".md5(rand());
 		        /*Space in mail*/
@@ -69,9 +74,7 @@
 				}
 				else {
 					$passage_ligne = "\n";
-				}
-
-				
+				}				
 				/*Open Boundary*/
 				$message = "...";
 
@@ -118,7 +121,7 @@
 		<div class="panel panel-default">
 			<div class="panel-heading">Me contacter</div>
 				<div class="panel-body">
-				    <form class="form-horizontal" action="" method="post"  id="contact_form" enctype="text/plain">
+				    <form class="form-horizontal" action="contact.php" method="post"  id="contact_form" enctype="text/plain">
 						<!-- Text input-->
 							<div class="form-group">
 								<label class="col-md-4 control-label">Nom</label>
@@ -170,8 +173,7 @@
 								<div class="col-md-4">
 									<button name="envoyer" type="submit" class="btn btn-warning" >Envoyer <span class="glyphicon glyphicon-send"></span></button>
 								</div>
-							</div>
-						
+							</div>	
 					</form>
 				</div>
 			</div>
