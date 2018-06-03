@@ -126,10 +126,6 @@
 			</div>
 <?php 
 if(isset($_POST['envoyer'])){
-echo "bonjour";
-echo 'Your mail address : '. $_POST["email"]."<br/>";
-echo 'Subject : ' . $_POST["sujet"]."<br/>";
-echo 'Content : ' . $_POST["message"];
 $mail = 'thomas.brissonnet@master-stic.fr';
 $boundary = "-----=".md5(rand());
 /*Space in mail*/
@@ -162,7 +158,7 @@ $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
 
 /*Sending mail*/
 $test = mail($mail,$_POST["sujet"],$message,$header);
-echo $test;
+echo $test."<br/>";
 
 /*Display mail information*/
 echo 'Your mail address : '. $_POST["email"]."<br/>";
