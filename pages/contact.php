@@ -1,36 +1,3 @@
-<?php
-
-// Le message
-$message = "Line 1\r\nLine 2\r\nLine 3";
-
-// Dans le cas où nos lignes comportent plus de 70 caractères, nous les coupons en utilisant wordwrap()
-$message = wordwrap($message, 70, "\r\n");
-
-// Envoi du mail
-mail('thomas.brissonnet@master-stic.fr', 'Mon Sujet', $message);
-echo "mail sended";
-//==========
-?>
-
-
-<?php 
-
-if(isset($_POST['envoyer'])){
-	//=====Création du header de l'e-mail
-	
-	/*$to = "thomas.brissonnet@master-stic.fr"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $nom = $_POST['nom'];
-    $prenom = $_POST['prenom'];
-    $subject = $_POST['sujet'];
-    $message = $nom . " " . $prenom . " wrote the following:" . "\n\n" . $_POST['message'];
-    $headers = "From:" . $from;
-    $value = mail($to,$subject,$message,$headers);
-	echo $value;
-    header('Location: confirm.html'); */
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
