@@ -68,7 +68,7 @@
 		<div class="panel panel-default">
 			<div class="panel-heading">Me contacter</div>
 				<div class="panel-body">
-				    <form class="form-horizontal" action="contact.php" method="post"  id="contact_form">
+				    <form class="form-horizontal" action="mailto:thomas.brissonnet@master-stic.fr" method="post"  id="contact_form">
 						<!-- Text input-->
 							<div class="form-group">
 								<label class="col-md-4 control-label">Nom</label>
