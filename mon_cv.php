@@ -9,7 +9,7 @@
 	<!-- Bootstrap css -->
 	<link href="static/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="static/css/mon_cv.css" rel="stylesheet" />
-	<link href="static/static/css/template.css" rel="stylesheet" />
+	<link href="static/css/template.css" rel="stylesheet" />
 	<!-- jQuery and Bootstrap js -->
 	<script src="static/js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="static/js/jquery.min.js" type="text/javascript"></script>
