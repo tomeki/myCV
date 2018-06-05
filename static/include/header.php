@@ -1,7 +1,5 @@
 <?php
-include("static/include/var.php");
-echo $index;
-echo $titre[$index];
+include_once("static/include/var.php");
 ?>
 <!DOCTYPE html>
 <html lang="fr">

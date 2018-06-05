@@ -1,7 +1,7 @@
 <?php
-include("static/include/var.php");
+include_once("static/include/var.php");
 $index = 3;
-include("static/include/header.php");
+include_once("static/include/header.php");
 ?>
 <body>
 	<!-- Navbar-->
