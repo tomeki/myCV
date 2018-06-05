@@ -75,7 +75,7 @@ include("static/include/header.php");
 ?>
 		<div class="row">
 			<div class="col-xs-12">
-				<a href="index.html"><button type="button" class="btn btn-info">Retour à l'accueil</button></a>
+				<a href="index.php"><button type="button" class="btn btn-info">Retour à l'accueil</button></a>
 			</div>
 		</div>
 
