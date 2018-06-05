@@ -1,0 +1,39 @@
+.photo
+{
+	text-align:center;
+}
+
+.jumbotron p.jumbo_style{
+
+	font-size: 1em;
+}
+.titre{
+	text-align: center;
+	color: #890101;
+}
+
+.dates{
+	text-align: center;
+}
+
+.competences_title{
+	text-align: center;
+	font-size: 1em;
+	font-weight: bolder;
+	color: #890101;
+}
+.hr_style{
+	border-top: 1px dashed #890101;
+}
+.hr_style2{
+	border-top: 1px solid grey;
+}
+
+.titre_exp_pro{
+	font-weight: bolder;
+}
+
+.download_button{
+	margin-bottom: 15%;
+	
+}
