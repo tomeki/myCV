@@ -1,32 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="Description" content="contact page">
-	<meta name="author" content="Brissonnet Thomas">
-	<!-- Bootstrap css -->
-	<link href="static/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="static/css/contact.css" rel="stylesheet" />
-	<link href="static/css/template.css" rel="stylesheet" />
-	<!-- jQuery and Bootstrap js -->
-	<script src="static/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="static/js/jquery.min.js" type="text/javascript"></script>
+<?php
+$title = "Contact";
+include("static/include/header.php")
+?>
 
-		<!-- Bootstrap Validator CSS -->
-	<link href="static/css/bootstrapValidator.min.css" rel="stylesheet" />
-
-			<!-- Bootstrap Validator JS -->
-	<script src="static/js/bootstrapValidator.min.js" type="text/javascript"></script>
-	<!-- html5 shim and respond.js ie8 support of html5 elements and media queries -->
-	<!-- [if lt IE 9]>
-	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-	<title>Contact</title>
-</head>
 <body>
 	<!-- Navbar-->
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -126,13 +102,9 @@
 			</div>
 
 	</div>
-	<div class="footer">
-		<nav class="navbar navbar-default navbar-fixed-bottom">
-			<div class="container">
-				<p class="navbar-text ">Thomas Brissonnet &copy; 2018 • Tous droits réservés • <a class="footer-link" href="contact.php">Contact</a></p>
-			</div>
-		</nav>
-	</div>
+<?php
+include("static/include/footer.php")
+?>
 	<!-- 
 		Bootstrap javascript and JQuery should be loaded
 		Placed at the end of the document for faster load times
