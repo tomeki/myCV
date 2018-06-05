@@ -212,8 +212,10 @@ include_once("static/include/header.php")
 			</div>
 		</div>
 	</div>	
+	
+	<!-- Footer-->
 <?php
-include("static/include/footer.php")
+include_once("static/include/footer.php")
 ?>
 	<!-- 
 		Bootstrap javascript and JQuery should be loaded

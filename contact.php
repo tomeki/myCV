@@ -27,15 +27,6 @@ include_once("static/include/header.php")
 			
 		</div>
 	</nav>
-	
-	
-<!-- Sending message-->
-
-
-
-
-
-
 	<!-- Content-->
 	<div class="container">
 		<div class="alert alert-danger" role="alert">
@@ -68,7 +59,7 @@ include_once("static/include/header.php")
 							</div>
 
 
-							<!-- Text input-->
+							<!-- E-mail input-->
 							<div class="form-group">
 								<label class="col-md-4 control-label">E-Mail</label>
 								<div class="col-md-6  inputGroupContainer">
@@ -77,14 +68,14 @@ include_once("static/include/header.php")
 									</div>
 								</div>
 							</div>
-							<!-- Text input-->
+							<!-- Subject input-->
 							<div class="form-group">
 								<label class="col-md-4 control-label">Sujet</label>
 								<div class="col-md-6  inputGroupContainer">
 									<input name="sujet" placeholder="Sujet" class="form-control"  type="text">
 								</div>
 							</div>
-							<!-- Text input-->
+							<!-- Message input-->
 							<div class="form-group">
 								<label class="col-md-4 control-label">Message</label>
 								<div class="col-md-6  inputGroupContainer">
@@ -103,8 +94,9 @@ include_once("static/include/header.php")
 			</div>
 
 	</div>
+	<!-- Footer-->
 <?php
-include("static/include/footer.php")
+include_once("static/include/footer.php")
 ?>
 	<!-- 
 		Bootstrap javascript and JQuery should be loaded
