@@ -124,9 +124,7 @@
 					</form>
 				</div>
 			</div>
-<?php 
-}
-?>
+
 	</div>
 	<div class="footer">
 		<nav class="navbar navbar-default navbar-fixed-bottom">
