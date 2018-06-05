@@ -22,3 +22,7 @@ footer_centerfooter_centerbody
 	text-decoration: none;
 	color: #890101;
 }
+
+.footer p{
+	text-align: center;
+}
