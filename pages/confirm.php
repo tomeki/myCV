@@ -90,10 +90,6 @@
 		}
 }
 ?>
-
-		<div class="alert alert-info" role="alert">
-			Message envoyé avec succès!
-		</div> 
 		<div class="row">
 			<div class="col-xs-12">
 				<a href="index.html"><button type="button" class="btn btn-info">Retour à l'accueil</button></a>
