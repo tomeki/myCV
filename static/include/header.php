@@ -20,6 +20,7 @@ if ($title=="Contact" || $title=="Contact_"){
 	echo "<link href='static/css/index.css' rel='stylesheet' />";
 }elseif($title=="Curriculum Vitae"){
 	echo "<link href='static/css/mon_cv.css' rel='stylesheet' />";
+}
 ?>
 	
 	<link href="static/css/template.css" rel="stylesheet" />
