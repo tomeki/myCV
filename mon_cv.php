@@ -116,9 +116,7 @@ include_once("static/include/header.php")
 		</div>
 		<div class="row">
 			<div class="col-xs-6 dates">
-				<p>Juillet 2014</p>
-				<p>Juillet 2015</p>
-				<p>Juillet 2016</p>
+				<p>Juillet 2014 / Juillet 2015 / Juillet 2016</p>
 			</div>
 			<div class="col-xs-6 infos">
 				<p class="titre_exp_pro">Mairie de Montmorillon (86) - Travail saisonnier (1 mois)</p>
