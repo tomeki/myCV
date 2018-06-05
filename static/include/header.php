@@ -16,6 +16,9 @@ echo $titre[$index];
 <?php
 if ($titre[$index]=="Contact" || $titre[$index]=="Contact_"){
 	echo "<link href='static/css/contact.css' rel='stylesheet' />";
+}elseif($titre[$index]=="Contact_"){
+	echo "<link href='static/css/contact.css' rel='stylesheet' />
+		  <meta http-equiv='refresh' content='5;URL=index.php'> ";
 }elseif($titre[$index]=="Accueil"){
 	echo "<link href='static/css/index.css' rel='stylesheet' />";
 }elseif($titre[$index]=="Curriculum Vitae"){
