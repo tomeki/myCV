@@ -14,13 +14,13 @@ include_once("static/include/header.php")
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index">Menu</a>
+				<a class="navbar-brand" href="index.php">Menu</a>
 			</div>
 			<div class="collapse navbar-collapse" id="navbar-container">
 				<ul class="nav navbar-nav">
-					<li><a href="index"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
-					<li class="active"><a href="mon_cv"><span class="glyphicon glyphicon-book"></span> Mon CV</a></li>
-					<li><a href="contact"><span class="glyphicon glyphicon-question-sign"></span> Me Contacter</a></li>
+					<li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
+					<li class="active"><a href="mon_cv.php"><span class="glyphicon glyphicon-book"></span> Mon CV</a></li>
+					<li><a href="contact.php"><span class="glyphicon glyphicon-question-sign"></span> Me Contacter</a></li>
 				</ul>
 			</div>
 			
