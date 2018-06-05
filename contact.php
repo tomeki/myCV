@@ -3,7 +3,6 @@ include_once("static/include/var.php");
 $index = 2;
 include_once("static/include/header.php")
 ?>
-
 <body>
 	<!-- Navbar-->
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
