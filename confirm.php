@@ -1,6 +1,7 @@
 <?php
-$title = "Contact_";
-include("static/include/header.php")
+include("static/include/var.php");
+$index = 3;
+include("static/include/header.php");
 ?>
 <body>
 	<!-- Navbar-->

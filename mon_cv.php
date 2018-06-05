@@ -1,5 +1,6 @@
 <?php
-$title = "Curriculum Vitae";
+include("static/include/var.php");
+$index = 1;
 include("static/include/header.php")
 ?>
 <body>

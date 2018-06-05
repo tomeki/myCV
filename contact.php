@@ -1,5 +1,6 @@
 <?php
-$title = "Contact";
+include("static/include/var.php");
+$index = 2;
 include("static/include/header.php")
 ?>
 

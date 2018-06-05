@@ -1,5 +1,6 @@
 <?php
-$title = "Accueil";
+include("static/include/var.php");
+$index = 0;
 include("static/include/header.php")
 ?>
 <body>
