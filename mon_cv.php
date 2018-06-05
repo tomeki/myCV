@@ -40,7 +40,7 @@ include_once("static/include/header.php")
 		<div class="jumbotron">
 			<div class="row">
 				<div class="col-md-8">
-				<h1>Brissonnet Thomas</h1>
+				<h1>Thomas Brissonnet</h1>
 				<p>En recherche d'une alternance en développement web pour mon master.</p>
 				<p class="jumbo_style">Née le 11 janvier 1996</p>
 				<p class="jumbo_style">Titulaire du permis B - véhiculé</p>
