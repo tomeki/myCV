@@ -29,7 +29,7 @@ include_once("static/include/header.php")
 	<!-- Content-->
 	<div class="container">
 		<div class="alert alert-danger" role="alert">
-			EN RECHERCHE D'UNE ALTERNANCE | DEV WEB | SEPTEMBRE 2018 | LYON / CHAMBERY
+			EN RECHERCHE D'UNE ALTERNANCE | DEVELOPPEMENT  | SEPTEMBRE 2018 | Autour de LYON ou CHAMBERY
 		</div> 
 		<div class="jumbotron">
 			<div class="row">
