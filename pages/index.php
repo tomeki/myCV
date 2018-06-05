@@ -43,9 +43,9 @@
 			</div>
 			<div class="collapse navbar-collapse" id="navbar-container">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
-					<li><a href="mon_cv.php"><span class="glyphicon glyphicon-book"></span> Mon CV</a></li>
-					<li><a href="contact.php"><span class="glyphicon glyphicon-question-sign"></span> Me Contacter</a></li>
+					<li class="active"><a href="index"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
+					<li><a href="mon_cv"><span class="glyphicon glyphicon-book"></span> Mon CV</a></li>
+					<li><a href="contact"><span class="glyphicon glyphicon-question-sign"></span> Me Contacter</a></li>
 				</ul>
 			</div>
 			
