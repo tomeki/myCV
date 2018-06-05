@@ -8,9 +8,9 @@
 	<meta name="author" content="Brissonnet Thomas">
 	<meta http-equiv="refresh" content="5;URL=index.html"> 
 	<!-- Bootstrap css -->
-	<link href="../static/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="../static/css/contact.css" rel="stylesheet" />
-	<link href="../static/css/template.css" rel="stylesheet" />
+	<link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="/static/css/contact.css" rel="stylesheet" />
+	<link href="/static/css/template.css" rel="stylesheet" />
 
 	<!-- html5 shim and respond.js ie8 support of html5 elements and media queries -->
 	<!-- [if lt IE 9]>
@@ -109,6 +109,6 @@
 		Placed at the end of the document for faster load times
 	-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="../static/js/bootstrap.min.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
 </body>
 </html>

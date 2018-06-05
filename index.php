@@ -7,18 +7,18 @@
 	<meta name="Description" content="home page">
 	<meta name="author" content="Brissonnet Thomas">
 	<!-- Bootstrap css -->
-	<link href="../static/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="../static/css/index.css" rel="stylesheet" />
-	<link href="../static/css/template.css" rel="stylesheet" />
+	<link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="/static/css/index.css" rel="stylesheet" />
+	<link href="/static/css/template.css" rel="stylesheet" />
 	<!-- jQuery and Bootstrap js -->
-	<script src="../static/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="../static/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/static/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/static/js/jquery.min.js" type="text/javascript"></script>
 
 		<!-- Bootstrap Validator CSS -->
-	<link href="../static/css/bootstrapValidator.min.css" rel="stylesheet" />
+	<link href="static/css/bootstrapValidator.min.css" rel="stylesheet" />
 
 			<!-- Bootstrap Validator JS -->
-	<script src="../static/js/bootstrapValidator.min.js" type="text/javascript"></script>
+	<script src="static/js/bootstrapValidator.min.js" type="text/javascript"></script>
 
 	<!-- html5 shim and respond.js ie8 support of html5 elements and media queries -->
 	<!-- [if lt IE 9]>
@@ -66,7 +66,7 @@
 				<div class="col-md-4">
 					<div class="photo">
 						<a href="#" class="img-thumbnail">
-							<img src="../static/img/photo.jpg" alt="photo_de_profil" width="200px"/>
+							<img src="static/img/photo.jpg" alt="photo_de_profil" width="200px"/>
 						</a>
 					</div>
 				</div>
@@ -114,6 +114,6 @@
 		Placed at the end of the document for faster load times
 	-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="../static/js/bootstrap.min.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
 </body>
 </html>
