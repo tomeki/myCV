@@ -68,7 +68,7 @@ include_once("static/include/header.php")
 					<p>Sept. 2018</p>
 				</div>
 				<div class="col-xs-6 infos">
-					<p>Préparation du master Télécommunications et Réseaux Informatiques - Université de Savoie Mont-Blanc</p>
+					<p>Préparation d'un Master Télécommunications et Réseaux Informatiques - Université de Savoie Mont-Blanc</p>
 				</div>
 			</div>
 			<br />
