@@ -43,7 +43,7 @@ include_once("static/include/header.php");
 		$message = "...";
 
 		/*Header Mail*/
-		$header = "From: \"".$_POST["nom"]."-".$_POST["prenom"]."\"<".$_POST["email"].">".$passage_ligne;
+		$header = "From: \"".$_POST["nom"]." ".$_POST["prenom"]."\"<".$_POST["email"].">".$passage_ligne;
 		$header.= "Reply-to: \"RETOUR\" <".$mail.">".$passage_ligne;
 		$header.= "MIME-Version: 1.0".$passage_ligne;
 		$header.= "Content-Type: multipart/alternative;".$passage_ligne." boundary=\"$boundary\"".$passage_ligne;
