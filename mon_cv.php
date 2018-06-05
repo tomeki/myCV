@@ -14,7 +14,7 @@ include_once("static/include/header.php")
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<p class="navbar-brand">Menu</p>
+				<a class="navbar-brand" href="index.php">Menu</a>
 			</div>
 			<div class="collapse navbar-collapse" id="navbar-container">
 				<ul class="nav navbar-nav">
