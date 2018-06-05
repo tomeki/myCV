@@ -7,7 +7,7 @@
 	<meta name="Description" content="home page">
 	<meta name="author" content="Brissonnet Thomas">
 	<!-- Bootstrap css -->
-	<link href="=static/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="static/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="static/css/mon_cv.css" rel="stylesheet" />
 	<link href="static/static/css/template.css" rel="stylesheet" />
 	<!-- jQuery and Bootstrap js -->
