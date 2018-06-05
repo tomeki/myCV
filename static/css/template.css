@@ -8,6 +8,10 @@ body
     max-height: 25px;
 }
 
+.photo
+{
+	text-align:center;
+}
 
 .footer
 {
