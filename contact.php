@@ -31,6 +31,22 @@ include_once("static/include/header.php")
 		<div class="alert alert-danger" role="alert">
 			EN RECHERCHE D'UNE ALTERNANCE | DEV WEB | SEPTEMBRE 2018 | LYON / CHAMBERY
 		</div> 
+		<div class="jumbotron">
+			<div class="row">
+				<div class="col-md-8">
+				<h1>Brissonnet Thomas</h1>
+				<p>En recherche d'une alternance en développement web pour mon master.</p>
+
+				</div>
+				<div class="col-md-4">
+					<div class="photo">
+						<a href="#" class="img-thumbnail">
+							<img src="static/img/photo.jpg" alt="photo_de_profil" width="200px"/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<hr />
 		<div class="panel panel-default">
 			<div class="panel-heading">Me contacter</div>
@@ -105,8 +121,7 @@ include_once("static/include/footer.php")
 	<script src="static/js/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js"></script>
-</body>
-<script type="text/javascript">
+	<script type="text/javascript">
    $(document).ready(function() {
     $('#contact_form').bootstrapValidator({
         // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
@@ -181,7 +196,7 @@ include_once("static/include/footer.php")
         });
 
 });
+</script>
+</body>
 
-</script>
-</script>
 </html>
