@@ -14,11 +14,11 @@ echo $titre[$index];
 	<!-- Bootstrap css -->
 	<link href="static/css/bootstrap.min.css" rel="stylesheet" />
 <?php
-if ($title=="Contact" || $title=="Contact_"){
+if ($titre[$index]=="Contact" || $titre[$index]=="Contact_"){
 	echo "<link href='static/css/contact.css' rel='stylesheet' />";
-}elseif($title=="Accueil"){
+}elseif($titre[$index]=="Accueil"){
 	echo "<link href='static/css/index.css' rel='stylesheet' />";
-}elseif($title=="Curriculum Vitae"){
+}elseif($titre[$index]=="Curriculum Vitae"){
 	echo "<link href='static/css/mon_cv.css' rel='stylesheet' />";
 }
 ?>
