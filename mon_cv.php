@@ -29,8 +29,8 @@ include_once("static/include/header.php")
 	<!-- Content-->
 	<div class="container">
 		<div class="alert alert-danger" role="alert">
-			EN RECHERCHE D'UNE ALTERNANCE | DEVELOPPEMENT  | SEPTEMBRE 2018 | Autour de LYON ou CHAMBERY
-		</div>
+			EN RECHERCHE D'UNE ALTERNANCE | DEVELOPPEMENT / DEVOPS / ADMINISTRATEUR SYSTEME  | SEPTEMBRE 2018 | Autour de LYON ou CHAMBERY
+		</div> 
 		<div class="download_button">
 			<a class="download_button" href="static/cv/BRISSONNET_Thomas_CV.pdf" download>
 			<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Télécharger le CV en .PDF</button>
