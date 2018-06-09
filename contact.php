@@ -36,7 +36,6 @@ include_once("static/include/header.php")
 				<div class="col-md-8">
 				<h1>Thomas Brissonnet</h1>
 				<p>En recherche d'une alternance pour mon master Télécommunications et Réseaux Informatiques.</p>
-
 				</div>
 				<div class="col-md-4">
 					<div class="photo">

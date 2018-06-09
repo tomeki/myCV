@@ -11,6 +11,7 @@ include_once("static/include/var.php");
 	<meta name="author" content="Brissonnet Thomas">
 	<!-- Bootstrap css -->
 	<link href="static/css/bootstrap.min.css" rel="stylesheet" />
+	
 <?php
 if ($titre[$index]=="Contact"){
 	echo "<link href='static/css/contact.css' rel='stylesheet' />";
@@ -20,7 +21,6 @@ if ($titre[$index]=="Contact"){
 	echo "<meta name='Description' content='contact page validation'>";
 	echo "<meta http-equiv='refresh' content='5;URL=index.php'>";
 }elseif($titre[$index]=="Accueil"){
-	echo "<link href='static/css/index.css' rel='stylesheet' />";
 	echo "<meta name='Description' content='index page'>";
 }elseif($titre[$index]=="Curriculum Vitae"){
 	echo "<link href='static/css/mon_cv.css' rel='stylesheet' />";

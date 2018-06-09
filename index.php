@@ -36,7 +36,6 @@ include_once("static/include/header.php")
 				<div class="col-md-8">
 				<h1>Thomas Brissonnet</h1>
 				<p>En recherche d'une alternance pour mon master Télécommunications et Réseaux Informatiques.</p>
-
 				</div>
 				<div class="col-md-4">
 					<div class="photo">
@@ -58,7 +57,7 @@ include_once("static/include/header.php")
 				<p>
 				Etant passionné par le développement, je n'ai pourtant pas spécialisé mes études afin de pouvoir profiter d'une 
 				large palette de connaissances diverses autour de l'informatique.
-				Cependant, j'aime le développement et je souhaite poursuivre mon cursus en alternance au près d'une entreprise afin de pouvoir 
+				Cependant, j'aime le développement et je souhaite poursuivre mon cursus en alternance auprès d'une entreprise afin de pouvoir 
 				étendre et mettre en pratique mes connaissances dans ce domaine.
 				</p>
             </div>

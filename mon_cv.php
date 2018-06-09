@@ -36,7 +36,6 @@ include_once("static/include/header.php")
 			<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Télécharger le CV en .PDF</button>
 		</a>
 		</div>
-		
 		<div class="jumbotron">
 			<div class="row">
 				<div class="col-md-8">
