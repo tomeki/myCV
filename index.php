@@ -66,12 +66,12 @@ include_once("static/include/header.php")
 		<div class="row">
 			<div class="col-md-6">
 				<div class="jumbotron">
-					<p>Pour en savoir plus à mon sujet: </p><a href="mon_cv.php"><button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-book"></span> Mon CV</button></a>
+					<p>Pour en savoir plus à mon sujet: </p><a href="mon_cv"><button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-book"></span> Mon CV</button></a>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="jumbotron">
-					<p> Pour me contacter: </p><a href="contact.php"><button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-question-sign"></span> Me contacter</button></a>
+					<p> Pour me contacter: </p><a href="contact"><button type="button" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-question-sign"></span> Me contacter</button></a>
 				</div>
 			</div>
 		</div>
