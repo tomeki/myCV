@@ -7,7 +7,7 @@ include_once("static/include/var.php");
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+	<meta name="Keywords" content="Brissonnet,Thomas">
 	<meta name="author" content="Brissonnet Thomas">
 	<!-- Bootstrap css -->
 	<link href="static/css/bootstrap.min.css" rel="stylesheet" />
@@ -19,7 +19,7 @@ if ($titre[$index]=="Contact"){
 }elseif($titre[$index]=="Contact_"){
 	echo "<link href='static/css/contact.css' rel='stylesheet' />";
 	echo "<meta name='Description' content='contact page validation'>";
-	echo "<meta http-equiv='refresh' content='5;URL=index.php'>";
+	echo "<meta http-equiv='refresh' content='5;URL=index'>";
 }elseif($titre[$index]=="Accueil"){
 	echo "<meta name='Description' content='index page'>";
 }elseif($titre[$index]=="Curriculum Vitae"){
