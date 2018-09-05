@@ -28,14 +28,14 @@ include_once("static/include/header.php")
 	</nav>
 	<!-- Content-->
 	<div class="container">
-		<div class="alert alert-danger" role="alert">
-			EN RECHERCHE D'UNE ALTERNANCE | DEVELOPPEMENT / DEVOPS / ADMINISTRATEUR SYSTEME  | SEPTEMBRE 2018 | Autour de LYON ou CHAMBERY
+		<div class="alert alert-info" role="info">
+			Actuellement alternant administrateur système et réseau
 		</div> 
 		<div class="jumbotron">
 			<div class="row">
 				<div class="col-md-8">
 				<h1>Thomas Brissonnet</h1>
-				<p>En recherche d'une alternance pour mon master Télécommunications et Réseaux Informatiques.</p>
+				<!--<p>En recherche d'une alternance pour mon master Télécommunications et Réseaux Informatiques.</p>-->
 				</div>
 				<div class="col-md-4">
 					<div class="photo">
